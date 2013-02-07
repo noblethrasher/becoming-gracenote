@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0C0F1A1D-0E24-45E4-9BDB-3760974B75ED}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Becoming_Gracenote</RootNamespace>
+    <AssemblyName>Becoming Gracenote</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Blocks\Expressions\Attributes\BlockExpressionAttribute.cs" />
+    <Compile Include="Blocks\Expressions\Attributes\CanAcceptParagraph.cs" />
+    <Compile Include="Blocks\Expressions\ReferenceExpression.cs" />
+    <Compile Include="Blocks\Expressions\TextFragment.cs" />
+    <Compile Include="Blocks\Expressions\Parsed.cs" />
+    <Compile Include="Blocks\Tokens\Blockquote.cs" />
+    <Compile Include="Blocks\Tokens\Blank.cs" />
+    <Compile Include="Blocks\Tokens\Directive.cs" />
+    <Compile Include="Blocks\Tokens\EndOfFile.cs" />
+    <Compile Include="Blocks\Tokens\ReferencesItem.cs" />
+    <Compile Include="Spans\Expressions\Attributes\AcceptsAnchor.cs" />
+    <Compile Include="Spans\Expressions\Attributes\HandlesAcronym.cs" />
+    <Compile Include="Spans\Expressions\Acronym.cs" />
+    <Compile Include="Spans\Expressions\CommaExpression.cs" />
+    <Compile Include="Spans\Expressions\Commercial Symbol Expression.cs" />
+    <Compile Include="Spans\Expressions\DashExpression.cs" />
+    <Compile Include="Spans\Expressions\EmailExpression.cs" />
+    <Compile Include="Spans\Expressions\EmptyImageExpression.cs" />
+    <Compile Include="Spans\Expressions\HorizontalRule.cs" />
+    <Compile Include="Blocks\Tokens\Paragraph.cs" />
+    <Compile Include="Blocks\Tokens\List.cs" />
+    <Compile Include="Blocks\Tokens\TextFragmentToken.cs" />
+    <Compile Include="Blocks\Tokens\Token.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Blocks\Expressions\Paragraph.cs" />
+    <Compile Include="Blocks\Expressions\List.cs" />
+    <Compile Include="Blocks\Expressions\BlockQuote.cs" />
+    <Compile Include="Blocks\Expressions\Header.cs" />
+    <Compile Include="Blocks\Expressions\Blank.cs" />
+    <Compile Include="Blocks\Expressions\Directive.cs" />
+    <Compile Include="Blocks\Expressions\HorizontalRuleExpression.cs" />
+    <Compile Include="Blocks\Expressions\SyntaxNode.cs" />
+    <Compile Include="Spans\Expressions\AmpersandExpression.cs" />
+    <Compile Include="Spans\Expressions\AngleBrackets.cs" />
+    <Compile Include="Spans\Expressions\BackTickQuoted.cs" />
+    <Compile Include="Spans\Expressions\Bold.cs" />
+    <Compile Include="Spans\Expressions\BoldItalic.cs" />
+    <Compile Include="Spans\Expressions\ElipsisExpression.cs" />
+    <Compile Include="Spans\Expressions\Container.cs" />
+    <Compile Include="Spans\Expressions\GenericTextExpression.cs" />
+    <Compile Include="Spans\Expressions\HyperLinkExpression.cs" />
+    <Compile Include="Spans\Expressions\NotEqualExpression.cs" />
+    <Compile Include="Spans\Expressions\PlusMinusExpression.cs" />
+    <Compile Include="Spans\Expressions\Quoted.cs" />
+    <Compile Include="Spans\Expressions\SingleQuoteExpression.cs" />
+    <Compile Include="Spans\Expressions\Parenthetical.cs" />
+    <Compile Include="Spans\Expressions\NumberExpression.cs" />
+    <Compile Include="Spans\Expressions\InlineQuoteExpression.cs" />
+    <Compile Include="Spans\Expressions\InlineDirectiveExpression.cs" />
+    <Compile Include="Spans\Expressions\Emdash.cs" />
+    <Compile Include="Spans\Expressions\GenericPunctuationExpression.cs" />
+    <Compile Include="Spans\Expressions\GenericSymbolExpression.cs" />
+    <Compile Include="Spans\Expressions\Italic.cs" />
+    <Compile Include="Spans\Expressions\Parsed.cs" />
+    <Compile Include="Spans\Expressions\Syntax.cs" />
+    <Compile Include="Spans\Expressions\TimeExpression.cs" />
+    <Compile Include="Spans\Expressions\UnderlineExpression.cs" />
+    <Compile Include="Spans\Expressions\UnderscoreExpression.cs" />
+    <Compile Include="Spans\Expressions\WhitespaceExpression.cs" />
+    <Compile Include="Spans\Expressions\WordExpression.cs" />
+    <Compile Include="Spans\Tokens\Ampersand.cs" />
+    <Compile Include="Spans\Tokens\AngleBracket.cs" />
+    <Compile Include="Spans\Tokens\Asterisk.cs" />
+    <Compile Include="Spans\Tokens\Caret.cs" />
+    <Compile Include="Spans\Tokens\Braket.cs" />
+    <Compile Include="Spans\Tokens\Comma.cs" />
+    <Compile Include="Spans\Tokens\Commercial Symbols.cs" />
+    <Compile Include="Spans\Tokens\EmptyImage.cs" />
+    <Compile Include="Spans\Tokens\CurlyBrace.cs" />
+    <Compile Include="Spans\Tokens\Email.cs" />
+    <Compile Include="Spans\Tokens\ForwardSlash.cs" />
+    <Compile Include="Spans\Tokens\InlineDirective.cs" />
+    <Compile Include="Spans\Tokens\Semicolon.cs" />
+    <Compile Include="Spans\Tokens\Dot.cs" />
+    <Compile Include="Spans\Tokens\EndOfLine.cs" />
+    <Compile Include="Spans\Tokens\Hash.cs" />
+    <Compile Include="Spans\Tokens\NotEqual.cs" />
+    <Compile Include="Spans\Tokens\PlusMinus.cs" />
+    <Compile Include="Spans\Tokens\TimeToken.cs" />
+    <Compile Include="Spans\Tokens\Uncategorized.cs" />
+    <Compile Include="Spans\Tokens\Dash.cs" />
+    <Compile Include="Spans\Tokens\GenericPunctuation.cs" />
+    <Compile Include="Spans\Tokens\Symbol.cs" />
+    <Compile Include="Spans\Tokens\Underscore.cs" />
+    <Compile Include="Spans\Tokens\GraveAccent.cs" />
+    <Compile Include="Spans\Tokens\Literal.cs" />
+    <Compile Include="Spans\Tokens\SingleQuote.cs" />
+    <Compile Include="Spans\Tokens\DoubleQuote.cs" />
+    <Compile Include="Spans\Tokens\Digits.cs" />
+    <Compile Include="Spans\Tokens\Paren.cs" />
+    <Compile Include="Spans\Tokens\SpanToken.cs" />
+    <Compile Include="Spans\Tokens\UriToken.cs" />
+    <Compile Include="Spans\Tokens\WhiteSpace.cs" />
+    <Compile Include="Spans\Tokens\Word.cs" />
+    <Compile Include="Utils\Email Parser\EmailParser.cs" />
+    <Compile Include="Utils\Image Parser\ImgParser.cs" />
+    <Compile Include="Utils\StackEx.cs" />
+    <Compile Include="Utils\Utils.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="test1.txt" />
+    <Content Include="test.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

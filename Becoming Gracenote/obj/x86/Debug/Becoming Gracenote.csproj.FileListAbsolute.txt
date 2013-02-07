@@ -1,0 +1,10 @@
+C:\Users\rod\Documents\Projects\Becoming Gracenote\Becoming Gracenote\bin\Debug\Becoming Gracenote.pdb
+C:\Users\rod\Documents\Projects\Becoming Gracenote\Becoming Gracenote\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\rod\Documents\Projects\Becoming Gracenote\Becoming Gracenote\obj\x86\Debug\Becoming Gracenote.pdb
+C:\Users\rod\Documents\Projects\Becoming Gracenote\Becoming Gracenote\bin\Debug\Becoming Gracenote.dll
+C:\Users\rod\Documents\Projects\Becoming Gracenote\Becoming Gracenote\obj\x86\Debug\Becoming Gracenote.dll
+C:\Users\rod\From Old\rod\Documents\Projects\Becoming Gracenote\Becoming Gracenote\bin\Debug\Becoming Gracenote.dll
+C:\Users\rod\From Old\rod\Documents\Projects\Becoming Gracenote\Becoming Gracenote\bin\Debug\Becoming Gracenote.pdb
+C:\Users\rod\From Old\rod\Documents\Projects\Becoming Gracenote\Becoming Gracenote\obj\x86\Debug\Becoming Gracenote.csprojResolveAssemblyReference.cache
+C:\Users\rod\From Old\rod\Documents\Projects\Becoming Gracenote\Becoming Gracenote\obj\x86\Debug\Becoming Gracenote.dll
+C:\Users\rod\From Old\rod\Documents\Projects\Becoming Gracenote\Becoming Gracenote\obj\x86\Debug\Becoming Gracenote.pdb

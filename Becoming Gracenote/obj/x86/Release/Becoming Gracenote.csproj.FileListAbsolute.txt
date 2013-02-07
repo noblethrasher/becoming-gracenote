@@ -1,0 +1,5 @@
+C:\Users\rod\Documents\Projects\Becoming Gracenote\Becoming Gracenote\bin\Release\Becoming Gracenote.pdb
+C:\Users\rod\Documents\Projects\Becoming Gracenote\Becoming Gracenote\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\rod\Documents\Projects\Becoming Gracenote\Becoming Gracenote\obj\x86\Release\Becoming Gracenote.pdb
+C:\Users\rod\Documents\Projects\Becoming Gracenote\Becoming Gracenote\bin\Release\Becoming Gracenote.dll
+C:\Users\rod\Documents\Projects\Becoming Gracenote\Becoming Gracenote\obj\x86\Release\Becoming Gracenote.dll

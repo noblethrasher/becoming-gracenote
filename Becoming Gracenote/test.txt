@@ -1,0 +1,35 @@
+﻿`visit` http://facebook.com or `email us` us@facebook.com
+
+
+Heading **One**
+---------------
+
+===
+
+sdfsdf [fig: /asd/asd/asda "test"]
+
+kljkljljljll;j
+lkjkljkjkjlkjlkj
+lkjlkjlkjljlj
+
+`Yahoo!` (http://yahoo.com:80/sdfdsf(sdfsdf)?sdfdsf)
+
+http://foo
+
+>> >>They're not comming...
+
+The `NATO` (http://nato.int "North Atlantic & Treaty Organization").
+
+I can do ``almost anything`` [CORRECTION: "*most* things"].
+
+sdfsddsf
+sdfsdfsdfsd
+sdfsdfsdfsdfsdfsd
+
+`hjghjgjh` (jkhkjh @ jkh)kjhkjh@[213.789.906.56]
+
+* Hello Word
+* My name is **Rubik
+	* jhkhkjh
+
+10:34 pm
