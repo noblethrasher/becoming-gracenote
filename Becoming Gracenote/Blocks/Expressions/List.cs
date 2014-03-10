@@ -37,7 +37,7 @@ namespace Gracenote
                 }
             }
             
-            var diff = initial.LeadingWhiteSpaceCount - token.LeadingWhiteSpaceCount; //we want the indentation level reletive to this line
+            var diff = initial.LeadingWhiteSpaceCount - token.LeadingWhiteSpaceCount; //we want the indentation level relative to this line
 
             if (diff == 0)
             {
